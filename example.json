@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "name": "Ростсельмаш",
+  "description": "Great company",
+  "age": 33,
+  "employersCount": 14300,
+  "logo": "https://my-images/logo1.png",
+  "products": [
+    {
+      "id": 1,
+      "name": "Трактор"
+    },
+    {
+      "id": 2,
+      "name": "Комбайн"
+    }
+  ]
+}
