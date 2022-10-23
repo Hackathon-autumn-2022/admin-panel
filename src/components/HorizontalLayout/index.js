@@ -123,7 +123,6 @@ const Layout = (props) => {
           isMenuOpened={isMenuOpened}
           openLeftMenuCallBack={openMenu}
         />
-        <Navbar menuOpen={isMenuOpened} />
         <div className="main-content">{props.children}</div>
         <Footer />
       </div>

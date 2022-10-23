@@ -36,14 +36,8 @@ const NotificationDropdown = props => {
           <div className="p-3">
             <Row className="align-items-center">
               <Col>
-                <h6 className="m-0"> {props.t("Notifications")} </h6>
+                <h6 className="m-0">Уведомления</h6>
               </Col>
-              <div className="col-auto">
-                <a href="#" className="small">
-                  {" "}
-                  View All
-                </a>
-              </div>
             </Row>
           </div>
 
@@ -57,17 +51,15 @@ const NotificationDropdown = props => {
                 </div>
                 <div className="flex-grow-1">
                   <h6 className="mt-0 mb-1">
-                    {props.t("Your order is placed")}
+                    Товар успешно размещен
                   </h6>
                   <div className="font-size-12 text-muted">
                     <p className="mb-1">
-                      {props.t(
-                        "If several languages coalesce the grammar"
-                      )}
+                      Очень важная информация
                     </p>
                     <p className="mb-0">
                       <i className="mdi mdi-clock-outline" />{" "}
-                      {props.t("3 min ago")}{" "}
+                        3 мин. назад
                     </p>
                   </div>
                 </div>
@@ -81,40 +73,14 @@ const NotificationDropdown = props => {
                   alt="user-pic"
                 />
                 <div className="flex-grow-1">
-                  <h6 className="mt-0 mb-1">James Lemire</h6>
+                  <h6 className="mt-0 mb-1">Максим Худяков</h6>
                   <div className="font-size-12 text-muted">
                     <p className="mb-1">
-                      {props.t("It will seem like simplified English") +
-                        "."}
+                      Добрый день! Можете подсказать, когда будет закончена модерация?
                     </p>
                     <p className="mb-0">
                       <i className="mdi mdi-clock-outline" />
-                      {props.t("1 hours ago")}{" "}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-            <Link to="" className="text-reset notification-item">
-              <div className="d-flex">
-                <div className="avatar-xs me-3">
-                  <span className="avatar-title bg-success rounded-circle font-size-16">
-                    <i className="bx bx-badge-check" />
-                  </span>
-                </div>
-                <div className="flex-grow-1">
-                  <h6 className="mt-0 mb-1">
-                    {props.t("Your item is shipped")}
-                  </h6>
-                  <div className="font-size-12 text-muted">
-                    <p className="mb-1">
-                      {props.t(
-                        "If several languages coalesce the grammar"
-                      )}
-                    </p>
-                    <p className="mb-0">
-                      <i className="mdi mdi-clock-outline" />{" "}
-                      {props.t("3 min ago")}
+                      {" "}1 час назад
                     </p>
                   </div>
                 </div>
@@ -124,32 +90,25 @@ const NotificationDropdown = props => {
             <Link to="" className="text-reset notification-item">
               <div className="d-flex">
                 <img
-                  src={avatar4}
+                  src={avatar3}
                   className="me-3 rounded-circle avatar-xs"
                   alt="user-pic"
                 />
                 <div className="flex-grow-1">
-                  <h6 className="mt-0 mb-1">Salena Layfield</h6>
+                  <h6 className="mt-0 mb-1">Еще одно уведомление</h6>
                   <div className="font-size-12 text-muted">
                     <p className="mb-1">
-                      {props.t(
-                        "As a skeptical Cambridge friend of mine occidental"
-                      ) + "."}
+                      Информация срочная и неотложная
                     </p>
                     <p className="mb-0">
                       <i className="mdi mdi-clock-outline" />
-                      {props.t("1 hours ago")}{" "}
+                      {" "}3 часа назад
                     </p>
                   </div>
                 </div>
               </div>
             </Link>
           </SimpleBar>
-          <div className="p-2 border-top d-grid">
-            <Link className="btn btn-sm btn-link font-size-14 text-center" to="#">
-              <i className="mdi mdi-arrow-right-circle me-1"></i> <span key="t-view-more">{props.t("View More..")}</span>
-            </Link>
-          </div>
         </DropdownMenu>
       </Dropdown>
     </React.Fragment>

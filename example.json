@@ -1,18 +1,18 @@
 {
-  "id": 1,
   "name": "Ростсельмаш",
-  "description": "Great company",
-  "age": 33,
-  "employersCount": 14300,
-  "logo": "https://my-images/logo1.png",
-  "products": [
-    {
-      "id": 1,
-      "name": "Трактор"
-    },
-    {
-      "id": 2,
-      "name": "Комбайн"
-    }
-  ]
+  "description": "Хорошая компания",
+  "meta_tags": ["комбайн", "трактор"],
+  "about_company": "Очень хорошая компания",
+  "logo": "https://logo.png",
+  "main_image": "https://main_image.png",
+  "category": "Сельское хозяйство",
+  "website_link": "https://postselmash.ru",
+  "phone_number": "+7 960 32-12-12",
+  "company_itn": "string",
+  "legal_address": "г. Ростов-на-Дону, ул. Пушкина",
+  "manufacturers_address": "г. Ростов-на-Дону, ул. Птушкина",
+  "partners_clients": 12314
 }
+
+
+

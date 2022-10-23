@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
+import { Link } from 'react-router-dom';
 import {
   useTable,
   useGlobalFilter,
@@ -185,15 +186,18 @@ const TableContainer = ({
         {isAddCustList && (
           <Col sm="7">
             <div className="text-sm-end">
-              <Button
-                type="button"
-                color="success"
-                className="btn-rounded mb-2 me-2"
-                onClick={handleCustomerClick}
-              >
-                <i className="mdi mdi-plus me-1" />
-                New Customers
-              </Button>
+              <Link to="/exps/add">
+                <Button
+                  type="button"
+                  color="success"
+                  className="btn-rounded mb-2 me-2"
+                  onClick={handleCustomerClick}
+                >
+                  <i className="mdi mdi-plus me-1" />
+                  Добавить экспонента
+                </Button>
+              </Link>
+
             </div>
           </Col>
         )}
